@@ -1,0 +1,8 @@
+github.com/divan/qrlogo v1.0.2 h1:2DuF0QOXqmuBOmmQH+++yay6Yind90x2CncyeW9Pld0=
+github.com/divan/qrlogo v1.0.2/go.mod h1:CnnR3G9IuGcAszQwNPYFjeE3VsArPghQVi6L5lQykSg=
+github.com/howeyc/crc16 v0.0.0-20171223171357-2b2a61e366a6 h1:IIVxLyDUYErC950b8kecjoqDet8P5S4lcVRUOM6rdkU=
+github.com/howeyc/crc16 v0.0.0-20171223171357-2b2a61e366a6/go.mod h1:JslaLRrzGsOKJgFEPBP65Whn+rdwDQSk0I0MCRFe2Zw=
+github.com/skip2/go-qrcode v0.0.0-20191027152451-9434209cb086 h1:RYiqpb2ii2Z6J4x0wxK46kvPBbFuZcdhS+CIztmYgZs=
+github.com/skip2/go-qrcode v0.0.0-20191027152451-9434209cb086/go.mod h1:PLPIyL7ikehBD1OAjmKKiOEhbvWyHGaNDjquXMcYABo=
+golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
