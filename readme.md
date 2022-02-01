@@ -1,5 +1,5 @@
 # Gerador Pix
-Gerador Pix Copia e Cola em Golang
+Gerador Pix Copia e Cola / QRCode em Golang
 
 Fiz este gerador para um projeto pessoal, talvez eu transforme em um pacote no futuro.
 
@@ -11,14 +11,18 @@ var pix = Pix{
 	Key:         "73ea37f3-ad17-4a5d-8ee4-f55a5bc5c359",
 	Amount:      1.5,
 	Description: "Faz um pix ai pia!",
-	TxId:        "<transaction_id>",
 	Merchant: Merchant{
-		Name: "Wagner", 
+		Name: "Wagner",
 		City: "Curitiba",
 	},
 }
 
-log.Println(pix.GetPayload())
+var qrcode, _ = pix.QRCode(qr.Medium, 256)
+
+log.Println("qrcode buffer:", qrcode)
+log.Println("payment code:", pix.String())
+log.Println("creating png")
+pix.File("qrcode.png")
 ```
 Escaneie o qrcode abaixo para testar
 
